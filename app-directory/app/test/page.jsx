@@ -8,5 +8,9 @@ export default function TestPage({searchParams}){
     if(searchParams.test=="true"){
         notFound();
     }
-    return <div>Test Page</div>
+    return (
+    <>
+        <div>Test Page</div>
+    </>
+    )
 }
